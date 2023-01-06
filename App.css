@@ -1,0 +1,121 @@
+* {
+  margin: 0%;
+  padding: 0%;
+  color: rgb(25, 134, 229);
+}
+
+.box {
+  width: 736px;
+  height: 723px;
+  position: absolute;
+  left: 327px;
+  right: 30px;
+  background-color: rgb(50, 89, 247);
+  color: aliceblue;
+  border-radius: 10px;
+}
+
+.frm {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  margin-right: -50%;
+  transform: translate(-50%, -50%);
+  border: 5px black;
+  border-radius: 75px;
+  color: aliceblue;
+  width: 513px;
+  height: 686px;
+}
+
+.hed {
+  text-align: center;
+  font-size: -1px;
+  margin: 10px;
+  padding: 9px;
+  width: 183px;
+  height: 38px;
+  position: relative;
+  left: 142px;
+  top: 15px;
+  color: rgb(9, 9, 241);
+  background-color: white;
+}
+
+.hed:hover {
+  opacity: 0.8;
+  background-color: aliceblue;
+}
+
+.int {
+  width: 454px;
+  height: 50px;
+  padding: 20px;
+  border-radius: 29px;
+  background-color: aliceblue;
+  margin: 37px;
+  font-size: 27px;
+  left: -32px;
+  top: 10px;
+  color: white;
+  text-align: center;
+}
+
+.int:hover {
+  opacity: 0.9;
+  background-color: aliceblue;
+}
+
+.btn {
+  position: relative;
+  left: 485px;
+  top: -77px;
+  border: 5px outset rgb(238, 234, 234);
+  border-radius: 10px;
+  width: 86px;
+  height: 48px;
+  font-size: 30px;
+  box-shadow: 5px 3px 5px 3px rgb(245 240 240);
+}
+
+.todlist {
+  display: flex;
+  position: relative;
+  left: 37px;
+  top: -6px;
+  border: 0px solid red;
+  box-shadow: 3px -3px 6px 5px rgb(48, 46, 46);
+  border-radius: -28px;
+  width: 309px;
+  font-size: 21px;
+  color: rgb(232, 76, 19);
+  margin: 5px;
+  padding: 3px;
+  height: 36px;
+}
+
+.clear {
+  display: flex;
+  color: rgb(25, 25, 27);
+  position: relative;
+  left: 192px;
+  top: 5px;
+  width: 5px;
+  height: 5px;
+}
+
+.edit {
+  position: relative;
+  left: 189px;
+  top: 6px;
+}
+.list {
+  display: flex;
+  color: rgb(25, 24, 25);
+  position: relative;
+  left: 48px;
+  top: 0px;
+  width: 11px;
+  height: 19px;
+  text-align: center;
+}
